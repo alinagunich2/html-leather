@@ -1,0 +1,1 @@
+const swiper3=new Swiper(".swiper-main",{slidesPerView:1,spaceBetween:10,navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"},pagination:{el:".swiper-pagination",type:"fraction",renderFraction:function(n,e){return'<span class="'+n+'"></span>/<span class="'+e+'"></span>'}}});
